@@ -1,5 +1,5 @@
 # Valgrind Excercise
-[![Build Status](https://travis-ci.org/dpiet/cpp-boilerplate.svg?branch=master)](https://travis-ci.org/dpiet/cpp-boilerplate)
+[![Build Status](https://travis-ci.com/SrinidhiSreenath/cpp-boilerplate-valgrind_exercise.svg?branch=master)](https://travis-ci.com/SrinidhiSreenath/cpp-boilerplate-valgrind_exercise)
 ---
 
 ## Overview
@@ -18,15 +18,6 @@ cmake ..
 make
 Run program: ./app/shell-app
 ```
-
-## Building for code coverage
-```
-sudo apt-get install lcov
-cmake -D COVERAGE=ON -D CMAKE_BUILD_TYPE=Debug ../
-make
-make code_coverage
-```
-This generates a index.html page in the build/coverage sub-directory that can be viewed locally in a web browser.
 
 ## Valgrind Profiling
 
