@@ -10,7 +10,7 @@ Simple C++ project for valgrind excercise with:
 
 ## Standard install via command-line
 ```
-git clone https://github.com/SrinidhiSreenath/ENPM808X-Software-Development-for-Robotics.git --branch valgrind_excercize
+git clone https://github.com/SrinidhiSreenath/cpp-boilerplate-valgrind_exercise.git
 cd <path to repository>
 mkdir build
 cd build
@@ -46,7 +46,7 @@ In your Eclipse workspace directory (or create a new one), checkout the repo (an
 ```
 mkdir -p ~/workspace
 cd ~/workspace
-git clone https://github.com/SrinidhiSreenath/ENPM808X-Software-Development-for-Robotics.git --branch valgrind_excercize
+git clone https://github.com/SrinidhiSreenath/cpp-boilerplate-valgrind_exercise.git
 ```
 
 In your work directory, use cmake to create an Eclipse project for an [out-of-source build] of cpp-boilerplate
